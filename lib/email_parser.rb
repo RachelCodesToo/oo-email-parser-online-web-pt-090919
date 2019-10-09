@@ -13,7 +13,7 @@ class EmailAddressParser
   end 
   
   def parse 
-    emails.delete
+    emails.delete(",")
   end 
   
 end 
